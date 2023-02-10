@@ -1,0 +1,140 @@
+/* Navbar Styles */
+.navbar-wrapper {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+    padding: 10px;
+}
+
+.navbar-wrapper>.items-wrapper>.codepen-logo img {
+    height: 60px;
+    width: 200px;
+}
+
+.navbar-wrapper>.items-wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: none;
+    height: 100px;
+    align-items: flex-end;
+    justify-items: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.navbar-wrapper>.items-wrapper>.explore-pens>.explore {
+    color: yellow;
+    align-self: start;
+}
+
+.navbar-wrapper>.items-wrapper>.explore-pens>.pens {
+    grid-column-start: 2 / 4;
+    align-self: end;
+}
+
+.navbar-wrapper>.items-wrapper>.btn-wrapper>.btn {
+    font-size: 1em;
+    align-self: center;
+    justify-self: center;
+    padding: 30px;
+    background-color: rgb(36, 32, 32);
+    color: white;
+    border-radius: 6px;
+}
+
+.navbar-wrapper>.items-wrapper>.btn-wrapper>.btn i {
+    color: green;
+}
+
+.navbar-wrapper>.items-wrapper>.icon i {
+    font-size: 2em;
+    align-self: center;
+}
+
+.navbar-wrapper>.items-wrapper {
+    font-size: 1.5em;
+    align-self: center;
+}
+
+.signup-section {
+    background-color: rgb(36, 32, 32);
+    height: 650px;
+    width: 100%;
+    padding: 10px;
+}
+
+.signup-section>.column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.signup-section>.column-wrapper>.left-column {
+    color: white;
+    font-size: 3em;
+    font-family: 'Roboto';
+}
+
+.signup-section>.column-wrapper>.right-column>.image-text>.blue {
+    color: lightblue;
+}
+
+.signup-section>.column-wrapper>.left-column>.signup-btn-wrapper .btn1 {
+    font-size: .8em;
+    align-self: center;
+    justify-self: center;
+    background-color: green;
+    padding: 20px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.signup-section>.column-wrapper>.left-column>.signup-btn-wrapper .btn {
+    font-size: .8em;
+    background-color: rgb(23, 20, 20);
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.signup-section>.column-wrapper>.right-column {
+    color: white;
+    font-size: 2em;
+    font-family: 'Roboto';
+}
+
+.signup-section>.column-wrapper>.right-column>.my-website img {
+    height: 500px;
+    width: fill;
+    box-shadow: -75px 30px 79px -8px rgb(0, 0, 0);
+}
+
+.signup-section>.column-wrapper>.right-column>.blue {
+    color: lightblue;
+}
+
+.footer {
+    background-color: rgb(36, 32, 32);
+    height: 200px;
+    width: 100%;
+}
+
+.footer>.flinks-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.footer>.flinks-wrapper>.bottom-link {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 2em;
+    color: white;
+    border: 2px solid;
+    padding: 10px 74px;
+    background-color: rgb(55, 52, 52);
+}
